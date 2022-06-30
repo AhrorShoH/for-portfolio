@@ -1,0 +1,76 @@
+.nav {
+  text-align: right;
+  text-decoration: none !important;
+  background-color: white !important;
+  padding: 20px;
+  color: #949494;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  position: fixed;
+  opacity: 0.95;
+}
+#names {
+  color: #070707;
+  margin-left: 5cm;
+  margin-right: 17cm;
+  font-size: 20pt;
+  text-decoration: none;
+}
+#blog {
+  color: #706e6e;
+  font-size: 16pt;
+  text-decoration: none;
+}
+#blog:hover {
+  color: blue;
+}
+#portfolio {
+  color: #706e6e;
+  font-size: 16pt;
+  text-decoration: none;
+}
+#portfolio:hover {
+  color: blue;
+}
+.about {
+  color: red;
+  font-size: 16pt;
+  text-decoration: none;
+}
+.about:hover {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    text-align: right;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px;
+    color: #949494;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+  }
+  #names {
+    color: #070707;
+    margin-left: 10px;
+    margin-right: 50px;
+    font-size: 15pt;
+    text-decoration: none;
+  }
+  #blog {
+    color: #706e6e;
+    font-size: 12pt;
+    text-decoration: none;
+  }
+  #portfolio {
+    color: #706e6e;
+    font-size: 12pt;
+    text-decoration: none;
+  }
+  .about {
+    color: red;
+    font-size: 12pt;
+    text-decoration: none;
+  }
+}
