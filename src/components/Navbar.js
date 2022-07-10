@@ -1,6 +1,6 @@
 import React from "react";
-import { Nav, NavItem, NavLink, NavbarBrand } from "reactstrap";
-
+import { Nav, NavItem } from "reactstrap";
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 
 class Navbar extends React.Component {
@@ -9,21 +9,21 @@ class Navbar extends React.Component {
       <div>
         <div>
           <Nav className="nav">
-                <NavbarBrand id="names" href="#">
+                <Link id="names" to="/">
                   <b>AhrorShoH</b>
-                </NavbarBrand>
+                </Link>
                 <NavItem>
-                  <NavLink active href="#" id="blog">
+                  <Link active to="/blog" id="blog">
                     Blog
-                  </NavLink>
+                  </Link>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#" id="portfolio">
+                  <Link to="/portfolio" id="portfolio">
                     Portfolio
-                  </NavLink>
+                  </Link>
                 </NavItem>
                 <NavItem>
-                    <NavLink className="about" href="#">About</NavLink>
+                    <Link className="about" to="/about">About</Link>
                 </NavItem>
           </Nav>
         </div>
