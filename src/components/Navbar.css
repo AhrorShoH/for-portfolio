@@ -1,33 +1,36 @@
 .nav {
   text-align: right;
   text-decoration: none !important;
-  background-color: white !important;
+  background-color: black !important;
   padding: 20px;
-  color: #949494;
+  color: #fff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   position: fixed;
-  opacity: 0.95;
+  opacity: 0.7;
+  z-index: 1;
 }
 #names {
-  color: #070707;
+  color: #fff;
   margin-left: 5cm;
   margin-right: 17cm;
   font-size: 20pt;
   text-decoration: none;
 }
 #blog {
-  color: #706e6e;
+  color: #fff;
   font-size: 16pt;
   text-decoration: none;
+  margin-right: 1cm;
 }
 #blog:hover {
   color: blue;
 }
 #portfolio {
-  color: #706e6e;
+  color: #fff;
   font-size: 16pt;
   text-decoration: none;
+  margin-right: 1cm;
 }
 #portfolio:hover {
   color: blue;
@@ -38,39 +41,74 @@
   text-decoration: none;
 }
 .about:hover {
-  color: black;
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
   .nav {
     text-align: right;
     text-decoration: none;
-    background-color: white;
+    background-color: black;
     padding: 5px;
-    color: #949494;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     position: fixed;
+    width: 768px;
   }
   #names {
-    color: #070707;
+    color: #fff;
     margin-left: 10px;
     margin-right: 50px;
     font-size: 15pt;
     text-decoration: none;
   }
   #blog {
-    color: #706e6e;
+    color: #fff;
     font-size: 12pt;
     text-decoration: none;
+    margin-left: 0cm;
   }
   #portfolio {
-    color: #706e6e;
+    color: #fff;
     font-size: 12pt;
     text-decoration: none;
+    margin-left: 0cm;
   }
   .about {
     color: red;
     font-size: 12pt;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav {
+    text-align: right;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+  }
+  #names {
+    color: #fff;
+    margin-left: 1cm;
+    margin-right: 11cm;
+    font-size: 20pt;
+    text-decoration: none;
+  }
+  #blog {
+    color: #fff;
+    font-size: 18pt;
+    text-decoration: none;
+  }
+  #portfolio {
+    color: #fff;
+    font-size: 18pt;
+    text-decoration: none;
+  }
+  .about {
+    color: red;
+    font-size: 18pt;
     text-decoration: none;
   }
 }
