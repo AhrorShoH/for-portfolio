@@ -1,7 +1,7 @@
 import React from "react";
-import Photo from "./my-photo.jpg";
 import { GoMarkGithub } from "react-icons/go";
 import { BsLinkedin, BsInstagram, BsTelegram } from "react-icons/bs";
+import Photo from "../pictures/my-photo.jpg";
 import "./main.css";
 
 function Main() {
@@ -31,3 +31,4 @@ function Main() {
   );
 }
 export default Main;
+
