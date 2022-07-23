@@ -9,7 +9,7 @@ function Main() {
     <div className="main">
       <img src={Photo} id="myphoto" title="My Photo" alt="My_Photo"/>
       <h1 id="name" className="react-reveal fadeInUp title">
-        Hi, I'm AHRORSHOH
+        Hi, I'm AHRORBEK
       </h1>
       <br />
       <h3 id="about">
@@ -31,4 +31,3 @@ function Main() {
   );
 }
 export default Main;
-

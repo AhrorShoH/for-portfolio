@@ -1,8 +1,9 @@
 .nav {
   text-align: right;
   text-decoration: none !important;
-  background-color: black !important;
+  background-color: #0A192F !important;
   padding: 20px;
+  padding-top: 35px;
   color: #fff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
@@ -11,104 +12,172 @@
   z-index: 1;
 }
 #names {
-  color: #fff;
-  margin-left: 5cm;
-  margin-right: 17cm;
-  font-size: 20pt;
+  color: #64FFDA;
+  margin-left: 2cm;
+  margin-right: 20cm;
+  font-size: 1.5rem;
   text-decoration: none;
 }
 #blog {
-  color: #fff;
-  font-size: 16pt;
+  color: #CCD6F6;
+  font-size: 1rem;
   text-decoration: none;
   margin-right: 1cm;
 }
 #blog:hover {
-  color: blue;
+  color: #64FFDA;
 }
 #portfolio {
-  color: #fff;
-  font-size: 16pt;
+  color: #CCD6F6;
+  font-size: 1rem;
   text-decoration: none;
   margin-right: 1cm;
 }
 #portfolio:hover {
-  color: blue;
+  color: #64FFDA;
 }
 .about {
-  color: red;
-  font-size: 16pt;
+  margin-right: 1cm;
+  color: #CCD6F6;
+  font-size: 1rem;
   text-decoration: none;
 }
 .about:hover {
-  color: #fff;
+  color: #64FFDA;
+}
+#resume {
+  margin-top: -8px;
+  color: #64FFDA;
+  background-color: #0A192F;
+  border: 1px solid #64FFDA;
+}
+#resume:hover {
+  color: #0A192F;
+  background-color: #64FFDA !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 500px) and (max-width: px) {
   .nav {
     text-align: right;
     text-decoration: none;
-    background-color: black;
+    background-color: 0A192F;
     padding: 5px;
+    padding-top: 15px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     position: fixed;
     width: 768px;
   }
   #names {
-    color: #fff;
+    color: #64FFDA;
     margin-left: 10px;
-    margin-right: 50px;
-    font-size: 15pt;
+    margin-right: 4cm;
+    font-size: 1rem;
     text-decoration: none;
   }
   #blog {
-    color: #fff;
-    font-size: 12pt;
+    color: #64FFDA;
+    font-size: 0.6rem;
     text-decoration: none;
     margin-left: 0cm;
   }
   #portfolio {
-    color: #fff;
-    font-size: 12pt;
+    color: #64FFDA;
+    font-size: 0.8rem;
     text-decoration: none;
     margin-left: 0cm;
   }
   .about {
-    color: red;
-    font-size: 12pt;
+    color: #64FFDA;
+    font-size: 0.8rem;
     text-decoration: none;
+  }
+  #resume {
+    font-size: 0.8rem;
+    margin-top: -8px;
+    color: #64FFDA;
+    background-color: #0A192F;
+    border: 1px solid #64FFDA;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .nav {
     text-align: right;
     text-decoration: none;
-    background-color: white;
+    background-color: #0A192F;
     padding: 5px;
+    padding-top: 15px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     position: fixed;
   }
   #names {
-    color: #fff;
+    color: #64FFDA;
     margin-left: 1cm;
-    margin-right: 11cm;
-    font-size: 20pt;
+    margin-right: 8cm;
+    font-size: 1.2rem;
     text-decoration: none;
   }
   #blog {
-    color: #fff;
-    font-size: 18pt;
+    color: #64FFDA;
+    font-size: 1rem;
     text-decoration: none;
   }
   #portfolio {
-    color: #fff;
-    font-size: 18pt;
+    color: #64FFDA;
+    font-size: 1rem;
     text-decoration: none;
   }
   .about {
-    color: red;
-    font-size: 18pt;
+    color: #64FFDA;
+    font-size: 1rem;
     text-decoration: none;
+  }
+  #resume {
+    font-size: 1.rem;
+    margin-top: -8px;
+    color: #64FFDA;
+    background-color: #0A192F;
+    border: 1px solid #64FFDA;
+  }
+}
+
+  @media screen and (min-width: 992px) and (max-width: 1023px) {
+  .nav {
+    text-align: right;
+    text-decoration: none;
+    background-color: #0A192F;
+    padding: 5px;
+    padding-top: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+  }
+  #names {
+    color: #64FFDA;
+    margin-left: 1cm;
+    margin-right: 12cm;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  #blog {
+    color: #64FFDA;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  #portfolio {
+    color: #64FFDA;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  .about {
+    color: #64FFDA;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  #resume {
+    font-size: 1.rem;
+    margin-top: -8px;
+    color: #64FFDA;
+    background-color: #0A192F;
+    border: 1px solid #64FFDA;
   }
 }
