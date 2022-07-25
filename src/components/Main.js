@@ -1,32 +1,20 @@
 import React from "react";
-import { GoMarkGithub } from "react-icons/go";
-import { BsLinkedin, BsInstagram, BsTelegram } from "react-icons/bs";
-import Photo from "../pictures/my-photo.jpg";
 import "./main.css";
 
 function Main() {
   return (
     <div className="main">
-      <img src={Photo} id="myphoto" title="My Photo" alt="My_Photo"/>
+      <h1 id="hello" className="react-reveal fadeInUp title">
+        Hi, my  name  is
+      </h1>
       <h1 id="name" className="react-reveal fadeInUp title">
-        Hi, I'm AHRORBEK
+        AHRORBEK UMRZOQOV
       </h1>
       <br />
       <h3 id="about">
-        I'm a Frontend Developer from Tashkent region, Uzbekistan.
+      I am a Frontend developer from Tashkent region, Uzbekistan. I really like the frontend, it's really cool.
       </h3>      
-      <a href="https://github.com/AhrorShoH" target="blank">
-        <GoMarkGithub id="icongithub" />
-      </a>
-      <a href="https://www.linkedin.com/in/umirzakoff-shax/" target="blank">
-        <BsLinkedin id="iconlinkedin" />
-      </a>
-      <a href="https://instagram.com/umirzakoff_shax/" target="blank">
-        <BsInstagram id="iconinstagram" />
-      </a>
-      <a href="https://t.me/umirzakoff_shax/" target="blank">
-        <BsTelegram id="icontelegram" />
-      </a>
+
     </div>
   );
 }

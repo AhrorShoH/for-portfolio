@@ -3,10 +3,12 @@ import Navbar from './components/Navbar';
 import Main from './components/Main';
 import './App.css';
 import Blog from './blog/Blog';
-import { Route } from 'react-router';
 import About from './about/About';
 import Portfolio from './portfolio/Portfolio';
+import Contact from "./contact/Contact";
+import { Route } from 'react-router';
 import {Routes} from 'react-router-dom';
+
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
         <Route path='/portfolio' element={<Portfolio/>} />
         <Route path='/about' element={<About/>} />
       </Routes>
+      <Contact/>
     </div>
   );
 }

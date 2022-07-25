@@ -8,7 +8,6 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   position: fixed;
-  opacity: 0.7;
   z-index: 1;
 }
 #names {
@@ -56,7 +55,7 @@
   background-color: #64FFDA !important;
 }
 
-@media screen and (min-width: 500px) and (max-width: px) {
+@media screen and (min-width: 300px) and (max-width: 500px) {
   .nav {
     text-align: right;
     text-decoration: none;
@@ -70,7 +69,98 @@
   #names {
     color: #64FFDA;
     margin-left: 10px;
-    margin-right: 4cm;
+    margin-right: 1cm;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  #blog {
+    margin-left: -5px;
+    color: #64FFDA;
+    font-size: 0.5rem;
+    text-decoration: none;
+    margin-left: 0cm;
+  }
+  #portfolio {
+    margin-left: -5px;
+    color: #64FFDA;
+    font-size: 0.5rem;
+    text-decoration: none;
+    margin-left: 0cm;
+  }
+  .about {
+    margin-left: -5px;
+    color: #64FFDA;
+    font-size: 0.5rem;
+    text-decoration: none;
+  }
+  #resume {
+    margin-left: -5px;
+    font-size: 0.5rem;
+    margin-top: -8px;
+    color: #64FFDA;
+    background-color: #0A192F;
+    border: 1px solid #64FFDA;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 650px) {
+  .nav {
+    text-align: right;
+    text-decoration: none;
+    background-color: 0A192F;
+    padding: 5px;
+    padding-top: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    width: 768px;
+  }
+  #names {
+    color: #64FFDA;
+    margin-left: 10px;
+    margin-right: 3.5cm;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  #blog {
+    color: #64FFDA;
+    font-size: 0.6rem;
+    text-decoration: none;
+    margin-left: 0cm;
+  }
+  #portfolio {
+    color: #64FFDA;
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin-left: 0cm;
+  }
+  .about {
+    color: #64FFDA;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  #resume {
+    font-size: 0.8rem;
+    margin-top: -8px;
+    color: #64FFDA;
+    background-color: #0A192F;
+    border: 1px solid #64FFDA;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 768px) {
+  .nav {
+    text-align: right;
+    text-decoration: none;
+    background-color: 0A192F;
+    padding: 5px;
+    padding-top: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    width: 768px;
+  }
+  #names {
+    color: #64FFDA;
+    margin-left: 10px;
+    margin-right: 7cm;
     font-size: 1rem;
     text-decoration: none;
   }
@@ -133,7 +223,7 @@
     text-decoration: none;
   }
   #resume {
-    font-size: 1.rem;
+    font-size: 1rem;
     margin-top: -8px;
     color: #64FFDA;
     background-color: #0A192F;
@@ -174,7 +264,87 @@
     text-decoration: none;
   }
   #resume {
-    font-size: 1.rem;
+    font-size: 1rem;
+    margin-top: -8px;
+    color: #64FFDA;
+    background-color: #0A192F;
+    border: 1px solid #64FFDA;
+  }
+}
+  @media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .nav {
+    text-align: right;
+    text-decoration: none;
+    background-color: #0A192F;
+    padding: 5px;
+    padding-top: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+  }
+  #names {
+    color: #64FFDA;
+    margin-left: 1cm;
+    margin-right: 19cm;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  #blog {
+    color: #64FFDA;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  #portfolio {
+    color: #64FFDA;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  .about {
+    color: #64FFDA;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  #resume {
+    font-size: 1.2rem;
+    margin-top: -8px;
+    color: #64FFDA;
+    background-color: #0A192F;
+    border: 1px solid #64FFDA;
+  }
+}
+  @media screen and (min-width: 1200px) {
+  .nav {
+    text-align: right;
+    text-decoration: none;
+    background-color: #0A192F;
+    padding: 5px;
+    padding-top: 25px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+  }
+  #names {
+    color: #64FFDA;
+    margin-left: 1cm;
+    margin-right: 17cm;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  #blog {
+    color: #64FFDA;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  #portfolio {
+    color: #64FFDA;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .about {
+    color: #64FFDA;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  #resume {
+    font-size: 1.5rem;
     margin-top: -8px;
     color: #64FFDA;
     background-color: #0A192F;

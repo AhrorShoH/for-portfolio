@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Photo from "../pictures/myphoto.jpg";
+import Photo from "../pictures/my-photo.jpg";
 import { GoMarkGithub } from "react-icons/go";
 import { BsLinkedin, BsInstagram, BsTelegram } from "react-icons/bs";
 import "../components/main.css";
@@ -15,7 +15,7 @@ function About() {
         <img src={Photo} id="aboutphoto" title="My Photo" alt="My_Photo" />
         <h3 id="aboutme">
           Hello, I'm AhrorSHoH Umrzoqov. I'm 19. I'm from Uzbekistan. I'm live
-          in Angren, Tashkent region. I am a Frontend programmer. My interest in
+          in Angren, Tashkent region. I am a Frontend Developer. My interest in
           Frontend programming is high.
         </h3>
         <div className="contact">

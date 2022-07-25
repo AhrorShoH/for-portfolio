@@ -3,7 +3,8 @@
   color: white;
   width: auto;
   height: 100%;
-  padding-top: 3cm;
+  padding-left: 2cm;
+  padding-top: 16cm;
   padding-bottom: 5%;  
 }
 #myphoto {
@@ -14,97 +15,39 @@
   z-index: -1;
   box-sizing: border-box;  
 }
+#hello {
+  animation-duration: 1250ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  color: #64FFDA;
+  margin-right: 15cm;
+  margin-left: 3cm;
+  margin-top: -11cm;
+  font-size: 1rem;
+}
 #name {
   animation-duration: 1250ms;
   animation-delay: 0ms;
   animation-iteration-count: 1;
-  opacity: 1;
-  margin-right: 15cm;
+  color: #CCD6F6;
+  margin-right: 10cm;
   margin-left: 3cm;
-  margin-top: -11cm;
+  margin-top: 0cm;
   font-size: 43pt;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-::-webkit-scrollbar {  
-  width: 10px;
-}
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb {
-  background: purple;
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: darkorchid;
-}
 #about {
   margin-top: 1cm;
-  margin-right: 21cm;
+  margin-right: 20cm;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-left: 3cm;
-  text-align: unset;
+  color: #CCD6F6;
   margin-bottom: 5cm;
-  text-align: center;
+  text-align: left;
+  font-size: 1rem;
   
 }
 
-#icongithub {
-  margin-left: 5cm;
-  font-size: 45px;
-  color: purple;
-  margin-top: -5cm;
-  
-  
-}
-#icongithub:hover {
-  color: white;
-  
-}
-#iconlinkedin {
-  margin-left: 1cm;
-  font-size: 45px;
-  color: purple;
-  margin-top: -5cm;
-}
-#iconlinkedin:hover {
-  color: blue;
-  background: white;
-  border-radius: 5px;
-
-}
-#iconinstagram {
-  margin-left: 1cm;
-  font-size: 45px;
-  color: purple;
-  margin-top: -5cm;
-
-}
-#iconinstagram:hover {
-  color: white;
-  padding: 2px;
-  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), 
-  radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), 
-  radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), 
-  radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), 
-  radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), 
-  radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), 
-  radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), 
-  linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
-  border-radius: 10px;
-}
-#icontelegram {
-  margin-left: 1cm;
-  font-size: 45px;
-  color: purple;
-  margin-top: -5cm;
-}
-#icontelegram:hover {
-  color: rgb(68, 148, 253); 
-  background: white;  
-  border-radius: 26px;
-}
 @media screen and (max-width: 768px) {
   .main {
     background-color: black;
@@ -136,34 +79,6 @@
     font-size: 12pt;
     margin-bottom: 1cm;
     text-align: center;
-  }
-  #icongithub {
-    margin-inline: 2cm;
-    font-size: 35px;
-    position: absolute;
-    color: white;
-    margin-top: 0;
-  }
-  #iconlinkedin {
-    margin-inline: 4cm;
-    font-size: 35px;
-    position: absolute;
-    color: white;
-    margin-top: 0;
-  }
-  #iconinstagram {
-    margin-inline: 6cm;
-    font-size: 35px;
-    position: absolute;
-    color: white;
-    margin-top: 0;
-  }
-  #icontelegram {
-    margin-inline: 8cm;
-    font-size: 35px;
-    position: absolute;
-    color: white;
-    margin-top: 0;
   }
 }
 
@@ -225,19 +140,5 @@
     position: absolute;
     color: white;
     margin-top: 0;
-  }
-  ::-webkit-scrollbar {  
-    width: 5px;
-  }
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
-    border-radius: 10px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: purple;
-    border-radius: 10px;
-  }
-  ::-webkit-scrollbar-thumb:hover {
-    background: darkorchid;
   }
 }
