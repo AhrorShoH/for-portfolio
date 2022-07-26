@@ -69,3 +69,368 @@
     margin-top: -7.1cm;
   }
 
+  @media screen and (min-width: 300px) and (max-width: 500px) {
+    .icons {
+      display: none;
+    }
+    .mail{
+      display: none;
+    }
+  }
+  
+@media screen and (min-width: 500px) and (max-width: 650px) {
+  .icons {
+    display: none;
+  }
+  .mail{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 768px) {
+  .icons {
+    display: none;
+  }
+  .mail{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .icons {
+    padding-left: 1cm;
+    background-color: #0A192F;
+    position: fixed;
+    padding-top: 1cm;
+}
+
+#icongithub {
+    font-size: 1.2rem;
+    color: #CCD6F6;
+    margin-top: -18cm;
+  }
+#icongithub:hover {
+    color: #64FFDA;
+    margin-top: -18.1cm;
+  }
+  #iconlinkedin {
+    font-size: 1.2rem;
+    color: #CCD6F6;
+    margin-top: -17cm;
+  }
+  #iconlinkedin:hover {
+    color: #64FFDA;
+    margin-top: -17.1cm;
+  }
+  #iconinstagram {
+    font-size: 1.2rem;
+    color: #CCD6F6;
+    margin-top: -16cm;
+  }
+  #iconinstagram:hover {
+    color: #64FFDA;
+    margin-top: -16.1cm;
+  }
+  #icontelegram {
+    font-size: 1.2rem;
+    color: #CCD6F6;
+    margin-top: -15cm;
+  }
+  #icontelegram:hover {
+    color: #64FFDA;
+    margin-top: -15.1cm;
+  }
+  #iconfacebook {
+    font-size: 1.2rem;
+    color: #CCD6F6;
+    margin-top: -14cm;
+  }
+  #iconfacebook:hover {
+    color: #64FFDA;
+    margin-top: -14.1cm;
+  }
+  .mail {
+    display: flex;
+    padding-left: 16cm;
+    background-color: #0A192F;
+    position: absolute;
+    padding-top: 0cm;
+  }
+  #mail {
+    transform: rotate(90deg);
+    text-decoration: none;
+    position: fixed;
+    font-size: 0.9rem;
+    color: #CCD6F6;
+    margin-top: -6cm;
+    font-family:'Courier New', Courier, monospace;
+  }
+  @media only screen and (min-width: 850px) {
+    .mail {
+      padding-left: 18cm;
+      background-color: #0A192F;
+      position: absolute;
+      padding-top: 0cm;
+    }
+    #mail {
+      transform: rotate(90deg);
+      text-decoration: none;
+      position: fixed;
+      font-size: 0.9rem;
+      color: #CCD6F6;
+      margin-top: -6cm;
+      font-family:'Courier New', Courier, monospace;
+    }
+  }
+  @media only screen and (min-width: 920px) {
+    .mail {
+      padding-left: 20cm;
+      background-color: #0A192F;
+      position: absolute;
+      padding-top: 0cm;
+    }
+    #mail {
+      transform: rotate(90deg);
+      text-decoration: none;
+      position: fixed;
+      font-size: 0.9rem;
+      color: #CCD6F6;
+      margin-top: -6cm;
+      font-family:'Courier New', Courier, monospace;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+  .icons {
+    padding-left: 1cm;
+    background-color: #0A192F;
+    position: fixed;
+    padding-top: 2cm;
+}
+
+#icongithub {
+    font-size: 1.2rem;
+    color: #CCD6F6;
+    margin-top: -18cm;
+  }
+#icongithub:hover {
+    color: #64FFDA;
+    margin-top: -18.1cm;
+  }
+  #iconlinkedin {
+    font-size: 1.2rem;
+    color: #CCD6F6;
+    margin-top: -17cm;
+  }
+  #iconlinkedin:hover {
+    color: #64FFDA;
+    margin-top: -17.1cm;
+  }
+  #iconinstagram {
+    font-size: 1.2rem;
+    color: #CCD6F6;
+    margin-top: -16cm;
+  }
+  #iconinstagram:hover {
+    color: #64FFDA;
+    margin-top: -16.1cm;
+  }
+  #icontelegram {
+    font-size: 1.2rem;
+    color: #CCD6F6;
+    margin-top: -15cm;
+  }
+  #icontelegram:hover {
+    color: #64FFDA;
+    margin-top: -15.1cm;
+  }
+  #iconfacebook {
+    font-size: 1.2rem;
+    color: #CCD6F6;
+    margin-top: -14cm;
+  }
+  #iconfacebook:hover {
+    color: #64FFDA;
+    margin-top: -14.1cm;
+  }
+  .mail {
+    padding-top: 1cm;
+    padding-right: 2cm;
+    padding-left: 22cm;
+    background-color: #0A192F;
+    position: fixed;
+  }
+  #mail {
+    transform: rotate(90deg);
+    text-decoration: none;
+    position: fixed;
+    font-size: 0.9rem;
+    color: #CCD6F6;
+    margin-top: -6cm;
+    font-family:'Courier New', Courier, monospace;
+  }
+  #mail:hover {
+    color: #64FFDA;
+    margin-top: -7.1cm;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .icons {
+    padding-left: 1cm;
+    background-color: #0A192F;
+    position: fixed;
+    padding-top: 1cm;
+}
+
+#icongithub {
+    font-size: 1.5rem;
+    color: #CCD6F6;
+    margin-top: -18cm;
+  }
+#icongithub:hover {
+    color: #64FFDA;
+    margin-top: -18.1cm;
+  }
+  #iconlinkedin {
+    font-size: 1.5rem;
+    color: #CCD6F6;
+    margin-top: -17cm;
+  }
+  #iconlinkedin:hover {
+    color: #64FFDA;
+    margin-top: -17.1cm;
+  }
+  #iconinstagram {
+    font-size: 1.5rem;
+    color: #CCD6F6;
+    margin-top: -16cm;
+  }
+  #iconinstagram:hover {
+    color: #64FFDA;
+    margin-top: -16.1cm;
+  }
+  #icontelegram {
+    font-size: 1.5rem;
+    color: #CCD6F6;
+    margin-top: -15cm;
+  }
+  #icontelegram:hover {
+    color: #64FFDA;
+    margin-top: -15.1cm;
+  }
+  #iconfacebook {
+    font-size: 1.5rem;
+    color: #CCD6F6;
+    margin-top: -14cm;
+  }
+  #iconfacebook:hover {
+    color: #64FFDA;
+    margin-top: -14.1cm;
+  }
+  .mail {
+    padding-top: 1cm;
+    padding-right: 2cm;
+    padding-left: 23cm;
+    background-color: #0A192F;
+    position: fixed;
+  }
+  #mail {
+    transform: rotate(90deg);
+    text-decoration: none;
+    position: fixed;
+    font-size: 0.9rem;
+    color: #CCD6F6;
+    margin-top: -7cm;
+    font-family:'Courier New', Courier, monospace;
+  }
+  @media only screen and (min-width: 1100px) {
+    .mail {
+      padding-left: 25cm;
+      background-color: #0A192F;
+      position: absolute;
+      padding-top: 0cm;
+    }
+    #mail {
+      transform: rotate(90deg);
+      text-decoration: none;
+      position: fixed;
+      font-size: 0.9rem;
+      color: #CCD6F6;
+      margin-top: -6cm;
+      font-family:'Courier New', Courier, monospace;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .icons {
+    padding-left: 1cm;
+    background-color: #0A192F;
+    position: fixed;
+    padding-top: 1cm;
+}
+
+#icongithub {
+    font-size: 1.5rem;
+    color: #CCD6F6;
+    margin-top: -18cm;
+  }
+#icongithub:hover {
+    color: #64FFDA;
+    margin-top: -18.1cm;
+  }
+  #iconlinkedin {
+    font-size: 1.5rem;
+    color: #CCD6F6;
+    margin-top: -17cm;
+  }
+  #iconlinkedin:hover {
+    color: #64FFDA;
+    margin-top: -17.1cm;
+  }
+  #iconinstagram {
+    font-size: 1.5rem;
+    color: #CCD6F6;
+    margin-top: -16cm;
+  }
+  #iconinstagram:hover {
+    color: #64FFDA;
+    margin-top: -16.1cm;
+  }
+  #icontelegram {
+    font-size: 1.5rem;
+    color: #CCD6F6;
+    margin-top: -15cm;
+  }
+  #icontelegram:hover {
+    color: #64FFDA;
+    margin-top: -15.1cm;
+  }
+  #iconfacebook {
+    font-size: 1.5rem;
+    color: #CCD6F6;
+    margin-top: -14cm;
+  }
+  #iconfacebook:hover {
+    color: #64FFDA;
+    margin-top: -14.1cm;
+  }
+  .mail {
+    padding-top: 1cm;
+    padding-right: 2cm;
+    padding-left: 27.5cm;
+    background-color: #0A192F;
+    position: fixed;
+  }
+  #mail {
+    transform: rotate(90deg);
+    text-decoration: none;
+    position: fixed;
+    font-size: 0.9rem;
+    color: #CCD6F6;
+    margin-top: -7cm;
+    font-family:'Courier New', Courier, monospace;
+  }
+}
