@@ -8,7 +8,7 @@ function Main() {
         Hi, my  name  is
       </h1>
       <h1 id="name" className="react-reveal fadeInUp title">
-        AHRORBEK UMRZOQOV
+        AHRORBEK UMRZOQOV.
       </h1>
       <br />
       <h3 id="about">
