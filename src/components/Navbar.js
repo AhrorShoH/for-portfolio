@@ -18,13 +18,13 @@ class Navbar extends React.Component {
               </Link>
             </NavItem>
             <NavItem>
-              <Link active to="/blog" id="blog">
-                Blog
+              <Link to="/portfolio" id="portfolio">
+                Projects
               </Link>
             </NavItem>
             <NavItem>
-              <Link to="/portfolio" id="portfolio">
-                Projects
+              <Link active to="/blog" id="blog">
+                Blog
               </Link>
             </NavItem>
           <div>
