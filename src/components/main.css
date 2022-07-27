@@ -297,9 +297,9 @@
     color: white;
     width: auto;
     height: 100%;
-    padding-left: 0.5cm;
+    padding-left: 1cm;
     padding-top: 11cm;
-    padding-bottom: 8%;  
+    padding-bottom: 11%;  
   }
   #hello {
     animation-duration: 1250ms;
