@@ -1,100 +1,367 @@
 .about-page{
-    background-color: black !important; 
-    color: white;
+    background-color: #0A192F !important; 
     width: auto;
     height: 100%;
     padding-top: 3cm;
-    padding-bottom: 15%;
+    padding-bottom: 12.01%;
 }
 #aboutphoto {
-    width: 350px;
+    width: 250px;
+    max-width: none;
     margin-top: 1cm;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-left: 21cm;
-    z-index: -1;
-    box-sizing: border-box;    
+    box-sizing: border-box;   
+    border: #64FFDA 2px solid;
   }
-#me {
-    text-align: center;
-    color: greenyellow;
-}
-#aboutme {
+
+#aboutme {  
+  color: #CCD6F6;
     margin-top: -7cm;
     margin-right: 21cm;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     margin-left: 2cm;
-    margin-bottom: 5cm;
     text-align: center;
     position: absolute;    
   }
-  .contact {
-    margin-top: 1cm;
+  #interest {
+    color: #CCD6F6;
+    display: flex;
+    position: absolute;
+    margin-left: 3cm;
+    margin-top: -4cm;
   }
- 
-  
-  @media screen and (max-width: 768px) {
+  #skills {
+    color: #CCD6F6;
+    display: flex;
+    position: absolute;
+    margin-left: 3cm;
+    margin-top: -1cm;
+  }
+
+  #skills p {
+    margin-left: 2cm;
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 500px) {
     .about-page{
-      background-color: black;
-      color: white;
-      width: 100%;
-      height: 1000px;
-      padding-top: 2cm;
-      padding-bottom: 100%;
+      background-color: #0A192F !important; 
+      width: auto;
+      height: 100%;
+      padding-top: 1cm;
+      padding-bottom: 25.15cm;
   }
   #aboutphoto {
-    width: 200px;
-    margin-top: 10px;
-    border-radius: 20px;
-    z-index: -1;
-    box-sizing: border-box;  
-    margin-bottom: 10px;
-    margin-left: 3cm;
-  }
-  #aboutme {
-    margin-top: 0cm;
+      width: 150px;
+      max-width: none;
+      position: absolute;
+      margin-top: 10cm;
+      border-radius: 5px;
+      margin-left: 2cm;
+      margin-right: 1cm;
+      box-sizing: border-box;   
+      border: #64FFDA 2px solid;
+    }
+  
+  #aboutme {  
+    font-size: 1rem;
+    color: #CCD6F6;
+    margin-top: 2cm;
     margin-right: 1cm;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     margin-left: 1cm;
-    margin-bottom: 10cm;
-    text-align: center;
-    position: absolute;
-  }
-  .contact {
-    margin-top: 6cm;
-  }
+    text-align: center;  
+    }
+    #interest {
+      font-size: 0.8rem;
+      color: #CCD6F6;
+      margin-left: 1cm;
+      margin-right: 1cm;
+      margin-top: 4cm;
+    }
+    #skills {
+      font-size: 0.8rem;
+      color: #64FFDA;
+      display: flex;
+      margin-left: 1cm;
+      margin-right: 1cm;
+      margin-top: 6cm;
+    }
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .about-page{
-      background-color: black;
-      color: white;
-      width: 100%;
-      height: auto;
-      padding-top: 3cm;
-      padding-bottom: 100px;
+@media screen and (min-width: 500px) and (max-width: 650px) {
+  .about-page{
+    background-color: #0A192F !important; 
+    width: auto;
+    height: 100%;
+    padding-top: 1cm;
+    padding-bottom: 25.15cm;
+  }
+  #aboutphoto {
+    width: 200px;
+    max-width: none;
+    position: absolute;
+    margin-top: 10cm;
+    border-radius: 5px;
+    margin-left: 4.5cm;
+    margin-right: 1cm;
+    box-sizing: border-box;   
+    border: #64FFDA 2px solid;
+  }
+  
+  #aboutme {  
+    font-size: 1.2rem;
+    color: #CCD6F6;
+    margin-top: 2cm;
+    margin-right: 1cm;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-left: 1cm;
+    text-align: center;  
+  }
+  #interest {
+    font-size: 1rem;
+    color: #CCD6F6;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 4cm;
+  }
+  #skills {
+    font-size: 1rem;
+    color: #64FFDA;
+    display: flex;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 6cm;
+}
+}
+
+@media screen and (min-width: 650px) and (max-width: 768px) {
+  .about-page{
+    background-color: #0A192F !important; 
+    width: auto;
+    height: 100%;
+    padding-top: 1cm;
+    padding-bottom: 25.15cm;
+  }
+  #aboutphoto {
+    width: 220px;
+    max-width: none;
+    position: absolute;
+    margin-top: 10cm;
+    border-radius: 5px;
+    margin-left: 7cm;
+    margin-right: 1cm;
+    box-sizing: border-box;   
+    border: #64FFDA 2px solid;
+  }
+  
+  #aboutme {  
+    font-size: 1.3rem;
+    color: #CCD6F6;
+    margin-top: 2cm;
+    margin-right: 1cm;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-left: 1cm;
+    text-align: center;  
+  }
+  #interest {
+    font-size: 1.1rem;
+    color: #CCD6F6;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 4cm;
+  }
+  #skills {
+    font-size: 1.1rem;
+    color: #64FFDA;
+    display: flex;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 6cm;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .about-page{
+    background-color: #0A192F !important; 
+    width: auto;
+    height: 100%;
+    padding-top: 1cm;
+    padding-bottom: 25.15cm;
   }
   #aboutphoto {
     width: 250px;
-    margin-top: 10px;
-    border-radius: 20px;
-    z-index: -1;
-    box-sizing: border-box;  
-    margin-bottom: 10px;
-    margin-left: 36%;
-    
-  }
-  #aboutme {
-    margin-top: 0cm;
-    margin-right: 2cm;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    margin-left: 2cm;
-    margin-bottom: 10cm;
-    text-align: center;
+    max-width: none;
     position: absolute;
+    margin-top: 12cm;
+    border-radius: 5px;
+    margin-left: 9cm;
+    margin-right: 1cm;
+    box-sizing: border-box;   
+    border: #64FFDA 2px solid;
   }
-  .contact {
-    margin-top: 3cm;
+  
+  #aboutme {  
+    font-size: 1.5rem;
+    color: #CCD6F6;
+    margin-top: 2cm;
+    margin-right: 1cm;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-left: 1cm;
+    text-align: center;  
+  }
+  #interest {
+    font-size: 1.3rem;
+    color: #CCD6F6;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 4cm;
+  }
+  #skills {
+    font-size: 1.3rem;
+    color: #64FFDA;
     display: flex;
-    align-items: center;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 7cm;
+}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+  .about-page{
+    background-color: #0A192F !important; 
+    width: auto;
+    height: 100%;
+    padding-top: 1cm;
+    padding-bottom: 25.15cm;
   }
+  #aboutphoto {
+    width: 270px;
+    max-width: none;
+    position: absolute;
+    margin-top: 12cm;
+    border-radius: 5px;
+    margin-left: 11cm;
+    margin-right: 1cm;
+    box-sizing: border-box;   
+    border: #64FFDA 2px solid;
   }
+  
+  #aboutme {  
+    font-size: 1.7rem;
+    color: #CCD6F6;
+    margin-top: 2cm;
+    margin-right: 1cm;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-left: 1cm;
+    text-align: center;  
+  }
+  #interest {
+    font-size: 1.5rem;
+    color: #CCD6F6;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 4cm;
+  }
+  #skills {
+    font-size: 1.5rem;
+    color: #64FFDA;
+    display: flex;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 7cm;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .about-page{
+    background-color: #0A192F !important; 
+    width: auto;
+    height: 100%;
+    padding-top: 1cm;
+    padding-bottom: 25.15cm;
+  }
+  #aboutphoto {
+    width: 300px;
+    max-width: none;
+    position: absolute;
+    margin-top: 14cm;
+    border-radius: 5px;
+    margin-left: 13cm;
+    margin-right: 1cm;
+    box-sizing: border-box;   
+    border: #64FFDA 2px solid;
+  }
+  
+  #aboutme {  
+    font-size: 2rem;
+    color: #CCD6F6;
+    margin-top: 2cm;
+    margin-right: 1cm;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-left: 1cm;
+    text-align: center;  
+  }
+  #interest {
+    font-size: 1.8rem;
+    color: #CCD6F6;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 4cm;
+  }
+  #skills {
+    font-size: 1.8rem;
+    color: #64FFDA;
+    display: flex;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 8cm;
+}
+}
+
+@media screen and (min-width: 1200px) {
+  .about-page{
+    background-color: #0A192F !important; 
+    width: auto;
+    height: 100%;
+    padding-top: 1cm;
+    padding-bottom: 30cm;
+  }
+  #aboutphoto {
+    width: 350px;
+    max-width: none;
+    position: absolute;
+    margin-top: 17cm;
+    border-radius: 5px;
+    margin-left: 13cm;
+    margin-right: 1cm;
+    box-sizing: border-box;   
+    border: #64FFDA 2px solid;
+  }
+  
+  #aboutme {  
+    font-size: 2.5rem;
+    color: #CCD6F6;
+    margin-top: 2cm;
+    margin-right: 1cm;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-left: 1cm;
+    text-align: center;  
+  }
+  #interest {
+    font-size: 2.3rem;
+    color: #CCD6F6;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 4cm;
+  }
+  #skills {
+    font-size: 2.3rem;
+    color: #64FFDA;
+    display: flex;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 10cm;
+}
+}
+  
