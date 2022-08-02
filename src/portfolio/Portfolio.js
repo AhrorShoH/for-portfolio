@@ -9,7 +9,7 @@ function Portfolio() {
     <div>
       <Navbar />
       <div className="portfolio-page">
-        <h2 id="header-portfolio">Get to know my Portfolio</h2>
+        <h2 id="header-portfolio">My Projects</h2>
         <h3 id="about-project">
           Timer and Calculator site. 
           This site has Stopwatch, Counter, State(Props) and Calculator.<br/>
