@@ -17,9 +17,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route index path='/' element={<Main/>} />
-        <Route path='/blog' element={<Blog/>} />
-        <Route path='/portfolio' element={<Portfolio/>} />
         <Route path='/about' element={<About/>} />
+        <Route path='/portfolio' element={<Portfolio/>} />
+        <Route path='/blog' element={<Blog/>} />
       </Routes>
       <Contact/>
     </div>
