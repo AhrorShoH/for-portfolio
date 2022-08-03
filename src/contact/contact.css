@@ -54,7 +54,7 @@
   }
   .mail {
     margin-right: -1cm;
-    padding-right: 2cm;
+    padding-right: 0cm;
     padding-left: 31cm;
     background-color: #0A192F;
     position: fixed;
@@ -108,7 +108,8 @@
     background-color: #0A192F;
     position: fixed;
     padding-top: 0cm;
-    height: 0cm;
+    height: auto;
+    margin-top: -11cm;
 }
 
 #icongithub {
@@ -162,6 +163,7 @@
     background-color: #0A192F;
     position: absolute;
     padding-top: 0cm;
+    margin-top: -11cm;
   }
   #mail {
     transform: rotate(90deg);
@@ -217,6 +219,7 @@
     position: fixed;
     padding-top: 1cm;
     height: 0cm;
+    margin-top: -11cm;
 }
 
 #icongithub {
@@ -271,6 +274,7 @@
     background-color: #0A192F;
     position: fixed;
     height: 0cm;
+    margin-top: -11cm;
   }
   #mail {
     transform: rotate(90deg);
@@ -294,6 +298,7 @@
     position: fixed;
     padding-top: -5cm;
     height: 0cm;
+    margin-top: -11cm;
 }
 
 #icongithub {
@@ -348,6 +353,7 @@
     background-color: #0A192F;
     position: fixed;
     height: 0cm;
+    margin-top: -11cm;
   }
   #mail {
     transform: rotate(90deg);
@@ -416,8 +422,8 @@
   }
   .mail {
     padding-top: 0cm;
-    padding-right: 2cm;
-    padding-left: 28.5cm;
+    padding-right: 0cm;
+    padding-left: 31cm;
     background-color: #0A192F;
     position: fixed;
     height: 0cm;
