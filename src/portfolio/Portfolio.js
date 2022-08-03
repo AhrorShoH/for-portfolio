@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import "./portfolio.css";
 import Image from "../pictures/project-img.jpg";
 import Race from "../pictures/race.jpg";
+import Contact from "../contact/Contact";
 
 function Portfolio() {
   return (
@@ -23,7 +24,6 @@ function Portfolio() {
             <button id="btn-demo">Demo</button>
         </a>
 
-
         <h3 id="about-project2">
           A racing game made in JavaScript.<br/>
           Skills: JavaScript.
@@ -37,6 +37,7 @@ function Portfolio() {
         </a>
         
       </div>
+      <Contact/>
     </div>
   );
 }
