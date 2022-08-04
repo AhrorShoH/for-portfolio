@@ -2,12 +2,20 @@
     padding-top: 4cm;
     width: auto;
     height: 649px;
-    background-color: #000;
+    background-color: #0A192F;
+    text-align: center;
+    padding-inline: 3cm;
+  }
+  #caption {
+    font-size: 2rem;
     text-align: center;
   }
   #text {
-    font-size: 40pt;
-    color: aqua;
+    margin-left: 5cm;
+    width: 50%;
+    text-align: justify;
+    font-size: 1.5rem;
+    color: #64FFDA;
     font-family: 'Courier New', Courier, monospace;
 }
 
